@@ -34,6 +34,7 @@ pipeline {
                 sh '''
                     test build/index.html
                     npm test
+                    
                     '''
                 }
              }
